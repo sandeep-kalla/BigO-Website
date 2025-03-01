@@ -5,6 +5,7 @@ import DailyChallengeCard from './components/DailyChallengeCard';
 import SolveAndLearn from './components/SolveAndLearn';
 import DSARoadmap from './components/DSARoadmap';
 import Footer from './components/Footer';
+import Faqs from './components/Faqs'
 
 const App = () => {
   const [challengeData, setChallengeData] = useState(null);
@@ -103,6 +104,8 @@ const App = () => {
           <div className="relative rounded-2xl overflow-hidden">
             <DSARoadmap />
           </div>
+
+          <Faqs />
         </div>
       </main>
           <Footer/>
